@@ -1,0 +1,28 @@
+{
+  "LinearRegression": {
+    "best_params": {},
+    "train_time_sec": 0.01
+  },
+  "DecisionTree": {
+    "best_params": {
+      "max_depth": null,
+      "min_samples_leaf": 5
+    },
+    "train_time_sec": 4.74
+  },
+  "RandomForest": {
+    "best_params": {
+      "max_depth": 16,
+      "n_estimators": 200
+    },
+    "train_time_sec": 155.36
+  },
+  "GradientBoosting": {
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 150
+    },
+    "train_time_sec": 42.57
+  }
+}
